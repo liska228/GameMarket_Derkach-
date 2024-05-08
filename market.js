@@ -35,3 +35,13 @@ if(itemsDiv) {
     //Вивід повідомлення про не знайдений блок 
     console.log("Блок товарів не знайдено")
 }
+
+// Визначення масиву товарів
+let itemsArray=['','','','']
+
+// Введення в консоль масиву
+console.log(itemsArray)
+
+for(let i=0; i< itemsArray.length;i++){
+    console.log(itemsArray[i])
+}
