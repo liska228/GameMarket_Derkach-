@@ -8,8 +8,13 @@ let itemsDiv = document.getElementById("items");
 //Перевірка існування знайденого блоку 
 if(itemsDiv) {
 
+    // Виведення елементів масиву
+    itemsArray.forEach((item)=>{
+        console.log(item)
+      })
+
     //Вивід знайденого елементу 
-    console.log(itemsDiv)
+    // console.log(itemsDiv)
     // Вивід значення поля знайденого елементу
     // console.log('Поле classList: ', itemsDiv.classList)
     // console.log('Поле id: ', itemsDiv.id)
@@ -27,8 +32,8 @@ if(itemsDiv) {
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
     // itemsDiv.innerHTML += '<div class = "item"></div>'
 
-    for (let i =0; i<=100; i++){
-        itemsDiv.innerHTML += '<div class = "item"></div>'}  
+    // for (let i =0; i<=100; i++){
+    //     itemsDiv.innerHTML += '<div class = "item"></div>'}  
 
 } else {
 
@@ -37,11 +42,41 @@ if(itemsDiv) {
 }
 
 // Визначення масиву товарів
-let itemsArray=['','','','']
+let itemsArray=[
+    'Газонокосарка 43',
+    'Електричний тример 110',
+    'Електрична газонокосарка 32',
+    'Акумуляторний оприскувач 12 N',
+    // 'Газонокосарка 430',
+    // 'Електричний тример 130',
+    // 'Електрична газонокосарка 320',
+    // 'Акумуляторний оприскувач 12 E'
+]
 
-// Введення в консоль масиву
-console.log(itemsArray)
+// Введення елементів відсортованого масиву
+// itemsArray.sort().forEach((item)=>{
+//     console.log(item)
+// })
+// itemsArray.sort().forEach((item,index)=>{
+//     console.log(index+'-й елемент: ', item)
+// })
 
-for(let i=0; i< itemsArray.length;i++){
-    console.log(itemsArray[i])
-}
+// Введення елементів масиву
+itemsArray.forEach((item)=>{
+   console.log(item)
+ })
+
+// // Введення в консоль масиву
+// console.log(itemsArray)
+
+// for(let i=0; i< itemsArray.length;i++){
+//     console.log(itemsArray[i])
+// }
+
+// // Сортування масиву
+// itemsArray=itemsArray.sort()
+
+// Введення в консоль номерів та значень елементів масиву
+// for(let i=0; i< itemsArray.length;i++) {
+//     console.log(i+'-й елемент: ', itemsArray[i])
+// }
