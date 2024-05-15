@@ -4,18 +4,39 @@ console.log('Перевірка підключеного файлу скрипт
 
 // Визначення масиву товарів
 let itemsArray = [
-    'Газонокосарка 43',
-    'Електричний тример 110',
-    'Електрична газонокосарка 32',
-    'Акумуляторний оприскувач 12N',
-    'Газонокосарка 430',
-    'Електричний тример 130',
-    'Електрична газонокосарка 320',
-    'Акумуляторний оприскувач 12 E',
-    'Газонокосарка 4304',
-    'Електричний тример 1304',
-    'Електрична газонокосарка 320f',
-    'Акумуляторний оприскувач 12 ES'
+    {
+        firstName: "Віталій",
+        lastName:"Шатківський",
+        age: 43 ,
+        subject:"CS",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg"
+    },
+    {
+        firstName: "Наталія",
+        lastName:"Венцель",
+        age:18,
+        subject:"Адміністратор",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
+    },
+    {
+        firstName: "Наталія",
+        lastName:"Кучер",
+        age: 18,
+        subject:"Фізика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg"
+    },
+    // 'Газонокосарка 43',
+    // 'Електричний тример 110',
+    // 'Електрична газонокосарка 32',
+    // 'Акумуляторний оприскувач 12N',
+    // 'Газонокосарка 430',
+    // 'Електричний тример 130',
+    // 'Електрична газонокосарка 320',
+    // 'Акумуляторний оприскувач 12 E',
+    // 'Газонокосарка 4304',
+    // 'Електричний тример 1304',
+    // 'Електрична газонокосарка 320f',
+    // 'Акумуляторний оприскувач 12 ES'
 ]
 
 // Отримання елементу з ідентифікатором items
@@ -28,11 +49,21 @@ if(itemsDiv) {
     itemsArray.forEach((item, index)=>{
         // itemsDiv.innerText += item
         // Виводимо на веб сторінку елемент масиву в блок з класом item 
+        // itemsDiv.innerHTML += 
+        // `
+        // <div class = "item">
+        //     <h2>Товар №${index +1} з ${itemsArray.length}</h2>
+        //     <p>${item}</p>
+        // </div>
+        // `
         itemsDiv.innerHTML += 
         `
         <div class = "item">
-            <h2>Товар №${index +1} з ${itemsArray.length}</h2>
-            <p>${item}</p>
+            <h2>Вчитель №${index +1} з ${itemsArray.length}</h2>
+            <p>${item.lastName} ${item.firstName}</p>
+            <p><img src="${item.photo}" class= user-photo </p>
+            <p>Вік: ${item.age}</p>
+            <p>Предмет: ${item.subject}</p>
         </div>
         `
     })

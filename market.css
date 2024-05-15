@@ -153,3 +153,7 @@ content{
     text-align: justify;
     color: gray;
 }
+
+.user-photo {
+    width: 170px;
+}
