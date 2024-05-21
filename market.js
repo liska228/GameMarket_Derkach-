@@ -2,29 +2,60 @@
 // Перевірка підключеного файлу скриптів
 console.log('Перевірка підключеного файлу скриптів market.js');
 
-// Визначення масиву товарів
+//Визначення масиву товарів
 let itemsArray = [
     {
-        firstName: "Віталій",
-        lastName:"Шатківський",
-        age: 43 ,
-        subject:"CS",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg"
+        name: "Мотокоса 43",
+        
+        price: "5 499 ",
+        discountPrice: "4 497 ",
+        couponPrice: "4 395",
+        
+        photo: "https://hotline.ua/img/tx/319/3193450945.jpg"
     },
     {
-        firstName: "Наталія",
-        lastName:"Венцель",
-        age:18,
-        subject:"Адміністратор",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
+        name: "Електричний тример 110",
+        price: "4 497 ",
+        discountPrice: "3 498",
+        couponPrice: "3 396",
+        photo: "https://static.dnipro-m.ua/origin/description/6566/design/m-110.jpg"
     },
     {
-        firstName: "Наталія",
-        lastName:"Кучер",
-        age: 18,
-        subject:"Фізика",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg"
+        name: "Електрична газонокосарка 32",
+         price: "4 497",
+        discountPrice: "3 297",
+        couponPrice: "3 195",
+        photo: "https://static.dnipro-m.ua/origin/description/6567/design/electric-mower-32.jpg"
     },
+    {
+        name: "Акумуляторний обприскувач 12 N",
+        price: "2 190 ",
+        discountPrice: "1 698",
+        couponPrice: "1 596",
+        photo: "https://hotline.ua/img/tx/449/4492289865.jpg"
+    }  ,
+// let itemsArray = [
+//     {
+//         firstName: "Віталій",
+//         lastName:"Шатківський",
+//         age: 43 ,
+//         subject:"CS",
+//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg"
+//     },
+//     {
+//         firstName: "Наталія",
+//         lastName:"Венцель",
+//         age:18,
+//         subject:"Адміністратор",
+//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
+//     },
+//     {
+//         firstName: "Наталія",
+//         lastName:"Кучер",
+//         age: 18,
+//         subject:"Фізика",
+//         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg"
+//     },
     // 'Газонокосарка 43',
     // 'Електричний тример 110',
     // 'Електрична газонокосарка 32',
@@ -42,31 +73,60 @@ let itemsArray = [
 // Отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items");
 
-
-//Перевірка існування знайденого блоку 
-if(itemsDiv) {
-    // Виведення елементів масиву
-    itemsArray.forEach((item, index)=>{
-        // itemsDiv.innerText += item
-        // Виводимо на веб сторінку елемент масиву в блок з класом item 
-        // itemsDiv.innerHTML += 
-        // `
-        // <div class = "item">
-        //     <h2>Товар №${index +1} з ${itemsArray.length}</h2>
-        //     <p>${item}</p>
-        // </div>
-        // `
-        itemsDiv.innerHTML += 
-        `
-        <div class = "item">
-            <h2>Вчитель №${index +1} з ${itemsArray.length}</h2>
-            <p>${item.lastName} ${item.firstName}</p>
-            <p><img src="${item.photo}" class= user-photo </p>
-            <p>Вік: ${item.age}</p>
-            <p>Предмет: ${item.subject}</p>
+if (itemsDiv) { 
+    // Створення блоків по кількості елементів масиву
+    itemsArray.forEach((item, index) => {
+        // Виводимо на веб-сторінку елемент масиву в блок з класом item
+        itemsDiv.innerHTML += `
+    
+        <div class="item">
+        <div class="meow">
+            <div class="item-title">${item.name}</div>
         </div>
-        `
-    })
+        <div class="item-image">
+        <img src="${item.photo}"  class="item-image">
+           
+            
+        </div>
+        <div class="parts-pay">
+            <div><img src="img.market/mono-lapka.png" alt="">6</div>
+            <div><img src="img.market/privat-bank.png" alt="">8</div>
+        </div>
+        <div class="prise">
+            <div><span>${item.price}</span><sup>грн</sup></div>
+            <div><span>${item.discountPrice}</span><sup>грн</sup></div>
+        </div>
+        <div class="prise bonus">
+            <div>Ціна за купоном</div>
+            <div><span>${item.couponPrice}</span><sup>грн</sup></div>
+        </div>
+    </div>`;
+});
+
+// //Перевірка існування знайденого блоку 
+// if(itemsDiv) {
+//     // Виведення елементів масиву
+//     itemsArray.forEach((item, index)=>{
+//         // itemsDiv.innerText += item
+//         // Виводимо на веб сторінку елемент масиву в блок з класом item 
+//         // itemsDiv.innerHTML += 
+//         // `
+//         // <div class = "item">
+//         //     <h2>Товар №${index +1} з ${itemsArray.length}</h2>
+//         //     <p>${item}</p>
+//         // </div>
+//         // `
+//         itemsDiv.innerHTML += 
+//         `
+//         <div class = "item">
+//             <h2>Вчитель №${index +1} з ${itemsArray.length}</h2>
+//             <p>${item.lastName} ${item.firstName}</p>
+//             <p><img src="${item.photo}" class= user-photo </p>
+//             <p>Вік: ${item.age}</p>
+//             <p>Предмет: ${item.subject}</p>
+//         </div>
+//         `
+//     })
 
     // Виведення елементів масиву
     itemsArray.forEach((item)=>{
