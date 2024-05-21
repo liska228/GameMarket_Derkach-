@@ -5,34 +5,40 @@ console.log('Перевірка підключеного файлу скрипт
 //Визначення масиву товарів
 let itemsArray = [
     {
-        name: "Мотокоса 43",
-        
-        price: "5 499 ",
-        discountPrice: "4 497 ",
-        couponPrice: "4 395",
-        
-        photo: "https://hotline.ua/img/tx/319/3193450945.jpg"
+        title: "Мотокоса 43",
+        image: "https://hotline.ua/img/tx/319/3193450945.jpg",
+        mono: 6,
+        pb: 8,
+        price_standart: "5 499 ",
+        price_discount: "4 497 ",
+        price_coupon: "4 395",
     },
     {
-        name: "Електричний тример 110",
-        price: "4 497 ",
-        discountPrice: "3 498",
-        couponPrice: "3 396",
-        photo: "https://static.dnipro-m.ua/origin/description/6566/design/m-110.jpg"
+        title: "Електричний тример 110",
+        image: "https://static.dnipro-m.ua/origin/description/6566/design/m-110.jpg",
+        mono: 6,
+        pb: 8,
+        price_standart: "4 497 ",
+        price_discount: "3 498",
+        price_coupon: "3 396",
     },
     {
-        name: "Електрична газонокосарка 32",
-         price: "4 497",
-        discountPrice: "3 297",
-        couponPrice: "3 195",
-        photo: "https://static.dnipro-m.ua/origin/description/6567/design/electric-mower-32.jpg"
+        title: "Електрична газонокосарка 32",
+        image: "https://static.dnipro-m.ua/origin/description/6567/design/electric-mower-32.jpg",
+        mono: 6,
+        pb: 8,
+        price_standart: "4 497",
+        price_discount: "3 297",
+        price_coupon: "3 195",
     },
     {
-        name: "Акумуляторний обприскувач 12 N",
-        price: "2 190 ",
-        discountPrice: "1 698",
-        couponPrice: "1 596",
-        photo: "https://hotline.ua/img/tx/449/4492289865.jpg"
+        title: "Акумуляторний обприскувач 12 N",
+        image: "https://hotline.ua/img/tx/449/4492289865.jpg",
+        mono: 6,
+        pb: 8,
+        price_standart: "2 190 ",
+        price_discount: "1 698",
+        price_coupon: "1 596",
     }  ,
 // let itemsArray = [
 //     {
@@ -81,24 +87,24 @@ if (itemsDiv) {
     
         <div class="item">
         <div class="meow">
-            <div class="item-title">${item.name}</div>
+            <div class="item-title">${item.title}</div>
         </div>
         <div class="item-image">
-        <img src="${item.photo}"  class="item-image">
+        <img src="${item.image}"  class="item-image">
            
             
         </div>
         <div class="parts-pay">
-            <div><img src="img.market/mono-lapka.png" alt="">6</div>
-            <div><img src="img.market/privat-bank.png" alt="">8</div>
+            <div><img src="img.market/mono-lapka.png" alt="">${item.mono}</div>
+            <div><img src="img.market/privat-bank.png" alt="">${item.pb}</div>
         </div>
         <div class="prise">
-            <div><span>${item.price}</span><sup>грн</sup></div>
-            <div><span>${item.discountPrice}</span><sup>грн</sup></div>
+            <div><span>${item.price_standart}</span><sup>грн</sup></div>
+            <div><span>${item.price_discount}</span><sup>грн</sup></div>
         </div>
         <div class="prise bonus">
-            <div>Ціна за купоном</div>
-            <div><span>${item.couponPrice}</span><sup>грн</sup></div>
+            <div>ціна за купоном</div>
+            <div><span>${item.price_coupon}</span><sup>грн</sup></div>
         </div>
     </div>`;
 });
