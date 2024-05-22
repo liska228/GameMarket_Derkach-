@@ -28,7 +28,7 @@ let itemsArray = [{
     surveyFormLink: "https://kyrylooo.github.io/Test1/",
     gameMarketGithubLink: "https://github.com/Kyrylooo/Test1",
     gameMarketPagesLink: "https://kyrylooo.github.io/Test1/",
-    marketPagesLink: "https://kyrylooo.github.io/Test1/"
+    marketPagesLink: "https://kyrylooo.github.io/Test1/",
   },
   {
     email: "23a_gmo@liceum.ztu.edu.ua",
@@ -40,7 +40,7 @@ let itemsArray = [{
     googleDriveLink: "https://drive.google.com/drive/folders/1h8T6v1Yt0wkzkiI72lSMMZndaidptT6o",
     surveyFormLink: "https://forms.gle/4tsVxrHtBpkLLmdc6",
     gameMarketGithubLink: "https://github.com/Marina745/GameMarket_Hromova/blob/main/market.js",
-    gameMarketPagesLink: "https://marina745.github.io/GameMarket_Hromova/market.html"
+    gameMarketPagesLink: "https://marina745.github.io/GameMarket_Hromova/market.html",
   },
   {
     email: "23a_gayu@liceum.ztu.edu.ua",
@@ -268,32 +268,15 @@ if (itemsDiv) {
             <div class="item-title">${item.email}</div>
             <div class="item-title">${item.group}</div>
         </div>
-        <div class="item-image">
-        <img src="${item.image}"  class="item-image">
-           
-            
-        </div>
         <div class="parts-pay">
-            <div><a href = "${item.gameMarketGithubLink}" target=_blank>Market Github</
-            a><div>
-            <div><a href = "${item.gameMarketPagesLink}" target=_blank>Market Pages</
-            a><div>
-            <div><a href = "${item.googleDriveLink}" target=_blank>Docs</
-            a><div>
-            <div><a href = "${item.surveyFormLink}" target=_blank>Forms</
-            a><div>
-            <div><a href = "${item.ga}" target=_blank>Gamemarket_github</
-            a><div>
-            <div><a href = "${item.gamemarket_pages}" target=_blank>Gamemarket_pages</
-            a><div>
-            <div><a href = "${item.market_pages}" target=_blank>Market_pages</
-            a><div>
-            <div class="item-title">${item.stars}</div>
-            
-            
-          
-        
-    </div>`;
+        <div><a href = "${item.githubLink}" target=_blank>Market Github</a><div>
+        <div><a href = "${item.githubPagesLink}" target=_blank>Market Pages</a><div>
+        <div><a href = "${item.googleDriveLink}" target=_blank>Docs</a><div>
+        <div><a href = "${item.surveyFormLink}" target=_blank>Forms</a><div>
+        <div><a href = "${item.gameMarketGithubLink}" target=_blank>Gamemarket_github</a><div>
+        <div><a href = "${item.gameMarketPagesLink}" target=_blank>Gamemarket_pages</a><div>
+        <div><a href = "${item.marketPagesLink}" target=_blank>Market_pages</a><div>
+        </div>`;
 });
 
 // //Перевірка існування знайденого блоку 
