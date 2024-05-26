@@ -15,7 +15,7 @@ let itemsArray = [{
     gameMarketGithubLink: "https://github.com/23a-bam/GameMarket_Borovyi",
     gameMarketPagesLink: "https://23a-bam.github.io/GameMarket_Borovyi/",
     marketPagesLink: "https://23a-bam.github.io/GameMarket_Borovyi/market.html",
-    gameMarketFinalLink: "-"
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_gki@liceum.ztu.edu.ua",
@@ -29,6 +29,7 @@ let itemsArray = [{
     gameMarketGithubLink: "https://github.com/Kyrylooo/Test1",
     gameMarketPagesLink: "https://kyrylooo.github.io/Test1/",
     marketPagesLink: "https://kyrylooo.github.io/Test1/",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_gmo@liceum.ztu.edu.ua",
@@ -41,6 +42,7 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/4tsVxrHtBpkLLmdc6",
     gameMarketGithubLink: "https://github.com/Marina745/GameMarket_Hromova/blob/main/market.js",
     gameMarketPagesLink: "https://marina745.github.io/GameMarket_Hromova/market.html",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_gayu@liceum.ztu.edu.ua",
@@ -50,7 +52,8 @@ let itemsArray = [{
     githubLink: "https://github.com/NoraBlank/-Phaser2ndGame?authuser=0",
     githubPagesLink: "https://norablank.github.io/-Phaser2ndGame/?authuser=0",
     googleDriveLink: "https://docs.google.com/document/d/1ESxlcNrGJPWx--NdlFbMdZJNQ3mHWVKQ-HktIVOJBVY/edit?usp=sharing",
-    surveyFormLink: "https://forms.gle/rNroPXhu2mFSxcHx8"
+    surveyFormLink: "https://forms.gle/rNroPXhu2mFSxcHx8",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_dii@liceum.ztu.edu.ua",
@@ -61,7 +64,8 @@ let itemsArray = [{
     githubPagesLink: "https://zxcursed2008.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1BfaZ86pNTA3FO_rOn196XXKOLYNQQ81E",
     surveyFormLink: "https://forms.gle/xs7rgVauTR9ryuNc7",
-    gameMarketGithubLink: "https://github.com/zxcursed2008/GameMarket_Demydchuk/"
+    gameMarketGithubLink: "https://github.com/zxcursed2008/GameMarket_Demydchuk/",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_dyem@liceum.ztu.edu.ua",
@@ -74,7 +78,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/XDzvrjzJhjq758XFA",
     gameMarketGithubLink: "https://github.com/liska228/GameMarket_Derkach-",
     gameMarketPagesLink: "https://liska228.github.io/GameMarket_Derkach-/",
-    marketPagesLink: "https://liska228.github.io/GameMarket_Derkach-/market.html"
+    marketPagesLink: "https://liska228.github.io/GameMarket_Derkach-/market.html",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_yedv@liceum.ztu.edu.ua",
@@ -88,7 +93,7 @@ let itemsArray = [{
     gameMarketGithubLink: "https://github.com/Scoxxy/GameMarket_YevlanovDaniil",
     gameMarketPagesLink: "https://scoxxy.github.io/GameMarket_YevlanovDaniil/",
     marketPagesLink: "https://scoxxy.github.io/GameMarket_YevlanovDaniil/market.html",
-    gameMarketFinalLink: "поки немає"
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_bks@liceum.ztu.edu.ua",
@@ -100,7 +105,8 @@ let itemsArray = [{
     googleDriveLink: "https://drive.google.com/drive/folders/1bNoYv5ChnzJTrIq0fjekfbqMNjz4SZ40?usp=sharing",
     surveyFormLink: "https://forms.gle/dxTCp9vfCCgZwyy97",
     gameMarketGithubLink: "https://github.com/katyablchh/GameMarket_Bulych",
-    marketPagesLink: "https://katyablchh.github.io/Phaser2ndGame/"
+    marketPagesLink: "https://katyablchh.github.io/Phaser2ndGame/",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_kai@liceum.ztu.edu.ua",
@@ -113,7 +119,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/i7YyjwzaHp7QvXei8",
     gameMarketGithubLink: "https://github.com/Andre00785/Game_Market_Kovalev",
     gameMarketPagesLink: "https://andre00785.github.io/Game_Market_Kovalev/",
-    marketPagesLink: "https://andre00785.github.io/Game_Market_Kovalev/market.html"
+    marketPagesLink: "https://andre00785.github.io/Game_Market_Kovalev/market.html",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_kyuk@liceum.ztu.edu.ua",
@@ -125,7 +132,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/NN9okEBmpsLw3AmX8",
     gameMarketGithubLink: "https://github.com/kyuk278937/GameMarket",
     gameMarketPagesLink: "https://kyuk278937.github.io/GameMarket/",
-    marketPagesLink: "https://kyuk278937.github.io/-HomeAppliancesStore/"
+    marketPagesLink: "https://kyuk278937.github.io/-HomeAppliancesStore/",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_kmo@liceum.ztu.edu.ua",
@@ -138,7 +146,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/PdXpRXZrbn9ujeMH7",
     gameMarketGithubLink: "https://github.com/Marykozl/GameMarket_Kozlyuk?hl=ru&authuser=0",
     gameMarketPagesLink: "https://marykozl.github.io/GameMarket_Kozlyuk/",
-    marketPagesLink: "https://marykozl.github.io/GameMarket_Kozlyuk/market.html"
+    marketPagesLink: "https://marykozl.github.io/GameMarket_Kozlyuk/market.html",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_kia@liceum.ztu.edu.ua",
@@ -151,7 +160,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/S2YEZ1dn7tYTkrbF6",
     gameMarketGithubLink: "https://github.com/maskenissen1/GameMarket_Kravchuk",
     gameMarketPagesLink: "https://maskenissen1.github.io/GameMarket_Kravchuk/",
-    marketPagesLink: "https://maskenissen1.github.io/GameMarket_Kravchuk/market.html"
+    marketPagesLink: "https://maskenissen1.github.io/GameMarket_Kravchuk/market.html",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_lsa@liceum.ztu.edu.ua",
@@ -164,7 +174,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/PgJv2LH1ZJjjS29V8",
     gameMarketGithubLink: "https://github.com/SofiaLazarenko/GameMarket_Lazarenko?authuser=0",
     gameMarketPagesLink: "https://sofialazarenko.github.io/GameMarket_Lazarenko/index.html",
-    marketPagesLink: "https://sofialazarenko.github.io/GameMarket_Lazarenko/n/market.html?authuser=0"
+    marketPagesLink: "https://sofialazarenko.github.io/GameMarket_Lazarenko/n/market.html?authuser=0",
+    gameMarketFinalLink: ""
   },
   {
     email: "23a_kiv@liceum.ztu.edu.ua",
@@ -177,7 +188,8 @@ let itemsArray = [{
     surveyFormLink: "https://forms.gle/e4camX4k2MZvK9qf7",
     gameMarketGithubLink: "https://github.com/Nefenix/GameMarket_Kaidaniuk",
     gameMarketPagesLink: "https://nefenix.github.io/GameMarket_Kaidaniuk/",
-    marketPagesLink: "https://nefenix.github.io/GameMarket_Kaidaniuk/market.html"
+    marketPagesLink: "https://nefenix.github.io/GameMarket_Kaidaniuk/market.html",
+    gameMarketFinalLink: ""
   }
 ]
     // {
