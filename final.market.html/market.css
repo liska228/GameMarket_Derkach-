@@ -163,3 +163,7 @@ content{
 .user-photo {
     width: 170px;
 }
+
+.item-photo {
+    height: 200px;
+}

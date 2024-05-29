@@ -8,6 +8,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Боровий  Артур",
     gameTitle: "Дід проти москалів",
+    authorPhoto: "Боровий.jpg",
     githubLink: "https://github.com/23a-bam/Phaser2ndGame",
     githubPagesLink: "https://23a-bam.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1A12wx0lfNj7Aef9KAw2CFMaDwhWM8V4Q?usp=sharing",
@@ -22,6 +23,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Геча Кирило",
     gameTitle: "Магазин UkraineRog",
+    authorPhoto: "Геча.jpg",
     githubLink: "https://github.com/Kyrylooo/GameMarket_Surname",
     githubPagesLink: "https://github.com/Kyrylooo/GameMarket_Surname/settings/pages",
     googleDriveLink: "https://kyrylooo.github.io/Test1/",
@@ -36,6 +38,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Громова Марина",
     gameTitle: "",
+    authorPhoto: "Громова.jpg",
     githubLink: "https://github.com/Marina745/Phaser2ndGame",
     githubPagesLink: "https://marina745.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1h8T6v1Yt0wkzkiI72lSMMZndaidptT6o",
@@ -49,6 +52,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Гуменюк Аріна",
     gameTitle: "",
+    authorPhoto: "Гоменюк.jpg",
     githubLink: "https://github.com/NoraBlank/-Phaser2ndGame?authuser=0",
     githubPagesLink: "https://norablank.github.io/-Phaser2ndGame/?authuser=0",
     googleDriveLink: "https://docs.google.com/document/d/1ESxlcNrGJPWx--NdlFbMdZJNQ3mHWVKQ-HktIVOJBVY/edit?usp=sharing",
@@ -60,6 +64,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Демидчук Ілля",
     gameTitle: "",
+    authorPhoto: "Демидчук.jpg",
     githubLink: "https://github.com/zxcursed2008/Phaser2ndGame",
     githubPagesLink: "https://zxcursed2008.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1BfaZ86pNTA3FO_rOn196XXKOLYNQQ81E",
@@ -72,6 +77,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Деркач Єлизавета",
     gameTitle: "Царівна жаба",
+    authorPhoto: "Деркач.jpg",
     githubLink: "https://github.com/liska228/Phaser2ndGame",
     githubPagesLink: "https://liska228.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1uFrc-z8MnRAFvR7sPNM1NnN800TJOUfr",
@@ -86,6 +92,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Євланов Данііл",
     gameTitle: "Пригоди Свинки Шмеппи 2",
+    authorPhoto: "Євланов.jpg",
     githubLink: "https://github.com/Scoxxy/Phaser2ndGame",
     githubPagesLink: "https://scoxxy.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1IzTICIYe3e_rj81-ihjd3oDOz6xfSYQR?usp=drive_link",
@@ -100,6 +107,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Катя Булич",
     gameTitle: "Червона відьма",
+    authorPhoto: "Булич.jpg",
     githubLink: "https://github.com/katyablchh/Phaser2ndGame",
     githubPagesLink: "https://katyablchh.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1bNoYv5ChnzJTrIq0fjekfbqMNjz4SZ40?usp=sharing",
@@ -113,6 +121,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Ковальов Андрій",
     gameTitle: "They alive",
+    authorPhoto: "Ковальов.jpg",
     githubLink: "https://github.com/Andre00785/Phaser1stGame",
     githubPagesLink: "https://github.com/Andre00785/Phaser1stGame/settings/pages",
     googleDriveLink: "https://docs.google.com/document/d/1D1bRBFti1aHsr-ZAqkfDkK9tdEeOpkM26E9qyWCE8O0/edit?usp=sharing",
@@ -127,6 +136,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Кожанов Юрій",
     gameTitle: "Catventure",
+    authorPhoto: "Кожанов.jpg",
     githubLink: "https://github.com/kyuk278937/Catventure",
     googleDriveLink: "https://drive.google.com/drive/folders/1GM-292zUzJSJlIB4-4_CIoOsHalliizh?usp=sharing",
     surveyFormLink: "https://forms.gle/NN9okEBmpsLw3AmX8",
@@ -140,6 +150,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Козлюк Марина",
     gameTitle: "Пригоди червоної шапочки",
+    authorPhoto: "Козлюк.jpg",
     githubLink: "https://github.com/Marykozl/Phaser2ndGame",
     githubPagesLink: "https://marykozl.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1AZzV2iit4QmQfotZM68HmWo4OjG-5ikO",
@@ -154,6 +165,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Кравчук Іван",
     gameTitle: "Пригоди Свиноти",
+    authorPhoto: "Кравчук.jpg",
     githubLink: "https://github.com/maskenissen1/Phaser2ndGame-1",
     githubPagesLink: "https://maskenissen1.github.io/Phaser2ndGame-1/",
     googleDriveLink: "https://drive.google.com/drive/folders/1_qC1jSGlqtfs16m1_nriWvomLg51Ah25",
@@ -168,6 +180,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Лазаренко Софія",
     gameTitle: "Mavka",
+    authorPhoto: "Лазаренко.jpg",
     githubLink: "https://github.com/SofiaLazarenko/Phaser2ndGame?authuser=0",
     githubPagesLink: "https://sofialazarenko.github.io/Phaser2ndGame/?authuser=0",
     googleDriveLink: "https://docs.google.com/document/d/1Dqe-8TcUA1YLj7mG-2IMBxHsPmlhkwfkEfrOTAb9Nvs/edit?usp=classroom_web&authuser=0",
@@ -182,6 +195,7 @@ let itemsArray = [{
     group: "10-А 1",
     name: "Кайданюк Ілля",
     gameTitle: "Пригоди Свинки Шмеппи 3",
+    authorPhoto: "Кайданюк.jpg",
     githubLink: "https://github.com/Nefenix/Phaser2ndGame",
     githubPagesLink: "https://nefenix.github.io/Phaser2ndGame/",
     googleDriveLink: "https://drive.google.com/drive/folders/1xlqWdx6uMj_5XWDlfl4EYZtAD6A8LGMq?usp=drive_link",
@@ -281,6 +295,7 @@ if (itemsDiv) {
             <div class="item-title">${item.group}</div>
         </div>
         <div class="parts-pay">
+        <img class="item-photo" src="img/${item.authorPhoto}" alt=${item.name + item.game}img>
         <div><a href = "${item.githubLink}" target=_blank>Market Github</a><div>
         <div><a href = "${item.githubPagesLink}" target=_blank>Market Pages</a><div>
         <div><a href = "${item.googleDriveLink}" target=_blank>Docs</a><div>
@@ -288,6 +303,7 @@ if (itemsDiv) {
         <div><a href = "${item.gameMarketGithubLink}" target=_blank>Gamemarket_github</a><div>
         <div><a href = "${item.gameMarketPagesLink}" target=_blank>Gamemarket_pages</a><div>
         <div><a href = "${item.marketPagesLink}" target=_blank>Market_pages</a><div>
+        <div><a href = "${item.gameMarketFinalLink}" target=_blank>Final Link</a><div>
         </div>`;
 });
 
